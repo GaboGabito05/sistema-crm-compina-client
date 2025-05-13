@@ -4,10 +4,10 @@ import GitHub from "../icons/GitHub";
 
 function Bento() {
     return (
-        <section className="p-8">
+        <section className="flex items-center justify-center justify-self-center w-full h-full p-8">
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-2 grid-rows-2 gap-8 p-10 rounded-2xl bg-gray-50/30 backdrop-blur-sm">
-                    <div className="h-[29rem] bg-amber-300 col-span-1 row-span-2 rounded-xl p-12 hover:shadow-xl transition-all flex flex-col justify-between group hover:bg-amber-400">
+                    <div className="bg-amber-300 col-span-1 row-span-2 rounded-xl p-12 hover:shadow-xl transition-all flex flex-col justify-between group hover:bg-amber-400">
                         <div className="space-y-4">
                             <span className="text-lg font-medium text-amber-800 block">
                                 Sistema CRM

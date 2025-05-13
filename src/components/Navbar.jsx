@@ -1,32 +1,32 @@
 function Navbar(){
     return (
         <nav className="top-0 left-0 right-0 backdrop-blur-lg bg-white/70 border-b border-gray-100 shadow-sm">
-            <div className="flex justify-between items-center p-6 max-w-7xl mx-auto">
+            <div className="flex justify-between items-center p-2 max-w-7xl mx-auto">
                 <div className="flex items-center gap-8">
                     <img className="w-20 h-auto hover:scale-105 transition-transform" 
                          src="/images/logo.webp" alt="logo" />
                     <ul className="flex gap-8 text-sm font-medium bg-white/50 backdrop-blur-sm px-8 py-3 rounded-full shadow-sm">
                         <li>
-                            <a href="/" target="_blank" className="hover:text-amber-600 transition-all relative group">
-                                Home
+                            <a href="#" target="_blank" className="hover:text-amber-600 transition-all relative group">
+                                Sobre mí
                                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-400 transition-all group-hover:w-full"></span>
                             </a>
                         </li>
                         <li>
-                            <a href="/about" className="hover:text-amber-600 transition-all relative group">
-                                About
+                            <a href="#" className="hover:text-amber-600 transition-all relative group">
+                                Mis Servicios
                                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-400 transition-all group-hover:w-full"></span>
                             </a>
                         </li>
                         <li>
-                            <a href="/services" className="hover:text-amber-600 transition-all relative group">
-                                Services
+                            <a href="#" className="hover:text-amber-600 transition-all relative group">
+                                Documentación
                                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-400 transition-all group-hover:w-full"></span>
                             </a>
                         </li>
                         <li>
-                            <a href="/contact" className="hover:text-amber-600 transition-all relative group">
-                                Contact
+                            <a href="#" className="hover:text-amber-600 transition-all relative group">
+                                API RESTful
                                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-400 transition-all group-hover:w-full"></span>
                             </a>
                         </li>
