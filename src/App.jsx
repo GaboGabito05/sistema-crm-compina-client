@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Bento from './components/Bento';
 import Mobile from './components/Mobile';
+import Docs from './pages/Docs'; // Asegúrate de que la ruta sea correcta
 
 function App() {
   const [isDesktop, setIsDesktop] = useState(true);
@@ -11,7 +13,7 @@ function App() {
       setIsDesktop(window.innerWidth >= 1024);
     };
 
-    handleResize(); // Ejecutar al cargar
+    handleResize();
     window.addEventListener('resize', handleResize);
 
     return () => window.removeEventListener('resize', handleResize);
@@ -22,7 +24,10 @@ function App() {
       {isDesktop ? (
         <>
           <Navbar />
-          <Bento />
+          <Routes>
+            <Route path="/" element={<Bento />} />
+            <Route path="/docs" element={<Docs />} />
+          </Routes>
         </>
       ) : (
         <Mobile />

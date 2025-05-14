@@ -34,8 +34,8 @@ function Bento() {
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-6">
-                        <a href="https://www.linkedin.com/in/gabriel-polack-castillo/" target="_blank" 
-                           className="block bg-blue-100 p-8 rounded-xl hover:shadow-xl transition-all group hover:bg-blue-200">
+                        <a href="https://www.linkedin.com/in/gabriel-polack-castillo/" target="_blank"
+                            className="block bg-blue-100 p-8 rounded-xl hover:shadow-xl transition-all group hover:bg-blue-200">
                             <div className="space-y-3">
                                 <span className="text-lg font-medium text-blue-700 block">
                                     Conoce mi trabajo
@@ -48,8 +48,8 @@ function Bento() {
                                 <LinkedIn />
                             </div>
                         </a>
-                        <a href="https://github.com/GaboGabito05" target="_blank" 
-                           className="block bg-gray-100 p-8 rounded-xl hover:shadow-xl transition-all group hover:bg-gray-200">
+                        <a href="https://github.com/GaboGabito05" target="_blank"
+                            className="block bg-gray-100 p-8 rounded-xl hover:shadow-xl transition-all group hover:bg-gray-200">
                             <div className="space-y-3">
                                 <span className="text-lg font-medium text-gray-700 block">
                                     Mira mis proyectos
