@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Bento from './components/Bento';
 import Mobile from './components/Mobile';
-import Docs from './pages/Docs';
+import Docs from './pages/docs';
 import Login from './pages/login';
 
 function App() {
