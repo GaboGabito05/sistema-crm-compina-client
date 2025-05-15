@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar.jsx';
-import Bento from './components/Bento.jsx';
-import Mobile from './components/Mobile.jsx';
-import Docs from './pages/docs.jsx';
-import Login from './pages/login.jsx';
+import Navbar from './components/Navbar';
+import Bento from './components/Bento';
+import Mobile from './components/Mobile';
+import Docs from './pages/Docs';
+import Login from './pages/Login';
 
 function App() {
   const [isDesktop, setIsDesktop] = useState(true);
