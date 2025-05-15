@@ -4,7 +4,7 @@ function Docs() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 gap-8 p-10 rounded-2xl bg-gray-50/30 backdrop-blur-sm">
           {/* Resumen del Proyecto */}
-          <div className="bg-amber-300 col-span-2 rounded-xl p-12 hover:shadow-xl transition-all group hover:bg-amber-400">
+          <div className="bg-gradient-to-br from-amber-100 to-amber-200 col-span-2 rounded-xl p-12 hover:shadow-xl transition-all group hover:bg-amber-400">
             <div className="space-y-4">
               <span className="text-lg font-medium text-amber-800 block">
                 Sistema CRM Compina S.A.C.

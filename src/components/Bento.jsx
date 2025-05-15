@@ -7,7 +7,7 @@ function Bento() {
         <section className="flex items-center justify-center justify-self-center w-full h-full p-8">
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-2 grid-rows-2 gap-8 p-10 rounded-2xl bg-gray-50/30 backdrop-blur-sm">
-                    <div className="bg-amber-300 col-span-1 row-span-2 rounded-xl p-12 hover:shadow-xl transition-all flex flex-col justify-between group hover:bg-amber-400">
+                    <div className="bg-gradient-to-br from-amber-100 to-amber-200 col-span-1 row-span-2 rounded-xl p-12 hover:shadow-xl transition-all flex flex-col justify-between group hover:bg-amber-400">
                         <div className="space-y-4">
                             <span className="text-lg font-medium text-amber-800 block">
                                 Sistema CRM
@@ -16,7 +16,7 @@ function Bento() {
                                 Bienvenido al sistema de gestión de clientes
                             </h1>
                         </div>
-                        <a href="#" className="inline-block bg-black text-white px-8 py-4 text-lg font-medium rounded-xl hover:bg-amber-900 transition-all hover:scale-105 w-fit">
+                        <a href="/login" className="inline-block bg-black text-white px-8 py-4 text-lg font-medium rounded-xl hover:bg-amber-900 transition-all hover:scale-105 w-fit">
                             Ingresar
                         </a>
                     </div>
